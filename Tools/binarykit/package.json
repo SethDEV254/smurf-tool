@@ -1,0 +1,23 @@
+{
+  "name": "binarykit",
+  "version": "0.1.0",
+  "description": "Local reverse-engineering / binary-analysis toolkit: static analysis (hash, entropy, strings, symbols, disassembly) and sandboxed dynamic analysis (isolated execution with syscall/network logging). For analyzing binaries you own or are authorized to inspect. No patching, keygen, or protection-bypass generation.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "binarykit": "./src/cli.ts"
+  },
+  "scripts": {
+    "binarykit": "bun run src/cli.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.34",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}

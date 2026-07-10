@@ -1,0 +1,11 @@
+.env
+node_modules/
+out/
+cache/
+broadcast/
+lib/
+.venv-slither/
+findings/*.json
+!findings/.gitkeep
+contracts/*
+!contracts/.gitkeep
